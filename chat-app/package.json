@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/hodhod212/chat-rooms#readme",
   "dependencies": {
-    "ejs": "2.3.4",
+    "ejs": "2.5.5",
     "express": "^4.13.3"
   }
 }
