@@ -2,9 +2,10 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "This is my first chat application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -13,10 +14,14 @@
   "author": "Ali Ezadkhaha",
   "license": "ISC",
   "engines": {
-    "node":"4.2.2"
+    "node": "4.2.2"
   },
   "bugs": {
     "url": "https://github.com/hodhod212/chat-rooms/issues"
   },
-  "homepage": "https://github.com/hodhod212/chat-rooms#readme"
+  "homepage": "https://github.com/hodhod212/chat-rooms#readme",
+  "dependencies": {
+    "ejs": "2.3.4",
+    "express": "^4.13.3"
+  }
 }
