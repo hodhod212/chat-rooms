@@ -1,0 +1,4 @@
+{
+    "host" : "http://localhost:3000",
+    "dbURI" : "mongodb+srv://chat-app:SOLTANali212@cluster0-unjeq.mongodb.net/test?retryWrites=true&w=majority"
+}
